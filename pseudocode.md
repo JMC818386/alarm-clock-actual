@@ -24,13 +24,40 @@
 
 3. Control
     - Button to set the alarm
-    - 
+    - Button to snooze alarm
+    - Button to stop alarm
 
 # Pseudo Code
 //Start Program
-START
 
-END
+    START
+
+        GET current month + day + year
+            DISPLAY
+
+        GET current hour + minute + second + am/pm
+            DISPLAY
+
+        INPUT hour that alarm will activate
+
+        INPUT minute that alarm will activate
+
+        INPUT am/pm that alarm will activate
+
+        IF INPUT hour + minute + am/pm
+            THEN click set button
+        ENDIF
+
+        IF alarm is activated & user wants it to stop
+            THEN click stop button
+        ENDIF
+
+        IF alarm is active and user want to snooze
+            THEN click snooze button
+        ENDIF
+
+    END
+
 //End Program
 
 # Variables
