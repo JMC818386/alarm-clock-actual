@@ -40,13 +40,14 @@ main {
 }
 
 button {
-    margin: 10px 5px 10px 5px;
+    margin: 10px 10px 10px 10px;
     font-family:'Courier New', monospace;
     font-size: 25px;
     padding: 25px;
     cursor: pointer;
     border-radius: 30px;
-    opacity: 0.8;
+    opacity: 0.4;
+    
 }
 
 #setAlarm {
@@ -54,16 +55,31 @@ button {
     color: white;
     cursor: pointer;
     color:aqua;
+    border: solid;
+}
+
+#setAlarm:hover {
+    opacity: 5;
 }
 
 #stopAlarm {
     background-color: rgb(10, 12, 50);
     color: white;
     color:aqua;
+    border: solid;
+}
+
+#stopAlarm:hover {
+    opacity: 5;
 }
 
 #snoozeAlarm {
     background-color: rgb(10, 12, 50);
     color: white;
     color:aqua;
+    border: solid;
+}
+
+#snoozeAlarm:hover {
+    opacity: 5;
 }
