@@ -1,5 +1,6 @@
 body {
     background-color: rgb(10, 12, 50);
+    margin: auto 200px auto 200px;
 }
 main {
     display: flex;
