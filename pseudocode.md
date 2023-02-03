@@ -62,3 +62,27 @@
 
 # Variables
 
+1. **Date**
+- dateDisplay
+- displayMonth
+- displayDay
+- displayYear
+
+2. **Clock**
+- clockDisplay
+- displayHour
+- displayMinute
+- displaySecond
+- ampm
+- time
+- refreshClock
+
+3. **Set Alarm**
+- setHour
+- setMinute
+- setAmpm
+
+4. **Buttons**
+- setAlarm
+- stopAlarm
+- snoozeAlarm
