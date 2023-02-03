@@ -33,10 +33,10 @@
     START
 
         GET current month + day + year
-            DISPLAY
+            DISPLAY current month + day + year
 
         GET current hour + minute + second + am/pm
-            DISPLAY
+            DISPLAY current hour + minute + second + am/pm
 
         INPUT hour that alarm will activate
 
@@ -52,7 +52,7 @@
             THEN click stop button
         ENDIF
 
-        IF alarm is active and user want to snooze
+        IF alarm is activated and user want to snooze
             THEN click snooze button
         ENDIF
 
